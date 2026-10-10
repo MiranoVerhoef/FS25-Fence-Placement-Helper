@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="113">
+    <author>Verhoef</author>
+    <version>1.0.0.0</version>
+    <iconFilename>icon_FencePlacementHelper.dds</iconFilename>
+
+    <title>
+        <en>Fence Placement Helper</en>
+        <de>Zaun-Platzierungshilfe</de>
+        <fr>Assistant De Placement De Clôtures</fr>
+        <nl>Hek Plaatsingshulp</nl>
+    </title>
+
+    <description>
+        <en><![CDATA[
+Fence Placement Helper improves long fence placement without replacing any vanilla construction controls.
+
+Features:
+- Live fence heading in degrees.
+- Straight-line reference follows an existing/parallel-snapped fence when available.
+- World 0° / 90° mode is the default and aligns fences to the nearest world 0/90/180/270° heading.
+- Local mode follows an existing fence when possible or locks to your own chosen heading.
+- World 45° mode uses the nearest 0/45/90/135/...° world heading.
+- Live deviation and lateral drift from that local reference.
+- White straight reference guide and visible section markers while placing.
+- Optional snapping directly onto the white straight-line guide.
+- At a new connected corner, Local mode automatically lets you choose straight continuation or an exact 90° left/right turn.
+- Optional automatic long-fence sections: OFF / 10 m / 25 m / 50 m / 100 m.
+- Sections remain visually continuous; FS25 suppresses duplicate shared posts.
+- Every section is a native FS25 fence segment, so the normal demolition tool can remove one section at a time.
+- Uses the normal FS25 fence network events, savegame format and server authority.
+- Multiplayer and dedicated-server compatible.
+- Compatible with customizable husbandry meadow fences; required native start/end connection points and husbandry validation are preserved.
+- Master ON/OFF switch instantly returns fence placement to vanilla behavior while preserving your helper settings.
+
+Controls:
+Left Alt + B = cycle fence section size.
+Left Alt + R = re-lock the straight-line guide to the current fence angle.
+Left Alt + S = toggle snapping to the white guide.
+Left Alt + G = switch guide mode: World 0° / 90° ↔ Local / fence ↔ World 45°.
+Left Alt + H = master Fence Placement Helper ON/OFF.
+
+Default section size: 25 m.
+Vanilla snapping and all existing construction buttons are unchanged.
+]]></en>
+        <de><![CDATA[
+Hilft beim geraden Platzieren langer Zaeune, unterstuetzt exakte 90-Grad-Ecken und kann lange Zaunabschnitte unsichtbar in einzeln loeschbare Segmente unterteilen.
+
+Linke Alt-Taste + B = Segmentlaenge wechseln.
+Linke Alt-Taste + R = Geradeaus-Referenz neu setzen.
+Linke Alt-Taste + S = Fangfunktion an der weissen Hilfslinie umschalten.
+Linke Alt-Taste + G = Hilfslinienmodus wechseln: Welt 0° / 90° ↔ Lokal / Zaun ↔ Welt 45°.
+Linke Alt-Taste + H = komplette Platzierungshilfe EIN/AUS.
+Kompatibel mit anpassbaren Tierhaltungs-/Weidezaeunen; die vorgegebenen Start-/Endpunkte und die originale Tierhaltungspruefung bleiben erhalten.
+Standard: 25 m. Die originalen Bau- und Fangfunktionen bleiben unveraendert.
+]]></de>
+        <fr><![CDATA[
+L'Assistant de placement de clôtures facilite la création de longues clôtures droites sans remplacer les commandes de construction d'origine.
+
+Fonctionnalités :
+- Affichage en direct de l'orientation de la clôture en degrés.
+- La ligne de référence suit une clôture existante ou parallèle lorsqu'elle est disponible.
+- Mode Local : le placement libre conserve votre propre direction initiale au lieu de suivre la grille du monde.
+- Mode Monde 45° : utilise la direction mondiale la plus proche parmi 0/45/90/135/...°.
+- Affichage en direct de l'écart angulaire et du décalage latéral par rapport à la référence.
+- Ligne guide blanche et repères de sections visibles pendant le placement.
+- Accrochage facultatif directement sur la ligne guide blanche.
+- À un nouveau coin connecté, le mode Local permet une continuation droite ou un virage exact à 90° vers la gauche ou la droite.
+- Sections automatiques facultatives pour les longues clôtures : DÉSACTIVÉ / 10 m / 25 m / 50 m / 100 m.
+- Les sections restent visuellement continues.
+- Chaque section utilise un segment de clôture FS25 natif et peut être supprimée individuellement avec l'outil de démolition normal.
+- Utilise le système réseau, le format de sauvegarde et l'autorité serveur natifs de FS25.
+- Compatible multijoueur et serveur dédié.
+- Un interrupteur principal permet de désactiver complètement l'assistant et de revenir au comportement FS25 d'origine tout en conservant vos réglages.
+
+Commandes :
+Alt gauche + B = changer la longueur des sections.
+Alt gauche + R = réaligner la ligne guide sur l'angle actuel de la clôture.
+Alt gauche + S = activer/désactiver l'accrochage à la ligne guide blanche.
+Alt gauche + G = changer de mode : Monde 0° / 90° ↔ Local / clôture ↔ Monde 45°.
+Alt gauche + H = activer/désactiver complètement l'Assistant de placement de clôtures.
+
+Compatible avec les clôtures personnalisables des prairies d'élevage ; les points de connexion de début/fin obligatoires et la validation native de l'élevage sont conservés.
+
+Longueur de section par défaut : 25 m.
+L'accrochage d'origine et toutes les commandes de construction existantes restent inchangés.
+]]></fr>
+        <nl><![CDATA[
+Maakt het plaatsen van lange hekken eenvoudiger, ondersteunt exacte 90-graden hoeken en kan een lang hek onzichtbaar opdelen in afzonderlijk verwijderbare secties.
+
+Linker Alt + B = sectielengte wisselen.
+Linker Alt + R = rechte referentielijn opnieuw vastzetten.
+Linker Alt + S = snapping op de witte hulplijn aan/uit.
+Linker Alt + G = hulplijnmodus wisselen: wereld 0° / 90° ↔ lokaal / hek ↔ wereld 45°.
+Linker Alt + H = volledige Fence Placement Helper AAN/UIT.
+Compatibel met aanpasbare afrasteringen van veehouderij-weides; verplichte begin-/eindpunten en de standaard veehouderij-validatie blijven behouden.
+Standaard: 25 m. De bestaande bouwknoppen en snapping blijven ongewijzigd.
+]]></nl>
+    </description>
+
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/FencePlacementHelper.lua"/>
+    </extraSourceFiles>
+
+    <actions>
+        <action name="FPH_CYCLE_SECTION_LENGTH" category="MENU"/>
+        <action name="FPH_RELOCK_GUIDE" category="MENU"/>
+        <action name="FPH_TOGGLE_GUIDE_SNAP" category="MENU"/>
+        <action name="FPH_CYCLE_GUIDE_MODE" category="MENU"/>
+        <action name="FPH_TOGGLE_MASTER" category="MENU"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="FPH_CYCLE_SECTION_LENGTH">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_b" index="1"/>
+        </actionBinding>
+        <actionBinding action="FPH_RELOCK_GUIDE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_r" index="1"/>
+        </actionBinding>
+        <actionBinding action="FPH_TOGGLE_GUIDE_SNAP">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_s" index="1"/>
+        </actionBinding>
+        <actionBinding action="FPH_CYCLE_GUIDE_MODE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_g" index="1"/>
+        </actionBinding>
+        <actionBinding action="FPH_TOGGLE_MASTER">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_h" index="1"/>
+        </actionBinding>
+    </inputBinding>
+
+    <l10n>
+        <text name="input_FPH_CYCLE_SECTION_LENGTH">
+            <en>Cycle fence section size</en>
+            <de>Zaun-Segmentlaenge wechseln</de>
+            <fr>Changer la longueur des sections de clôture</fr>
+            <nl>Heksectielengte wisselen</nl>
+        </text>
+        <text name="input_FPH_RELOCK_GUIDE">
+            <en>Re-lock fence guide</en>
+            <de>Zaunfuehrung neu ausrichten</de>
+            <fr>Réaligner le guide de clôture</fr>
+            <nl>Hekgeleider opnieuw vastzetten</nl>
+        </text>
+        <text name="input_FPH_TOGGLE_GUIDE_SNAP">
+            <en>Toggle snap to fence guide</en>
+            <de>Fangfunktion an Zaunfuehrung umschalten</de>
+            <fr>Activer/désactiver l'accrochage au guide</fr>
+            <nl>Snapping op hekgeleider aan/uit</nl>
+        </text>
+        <text name="input_FPH_CYCLE_GUIDE_MODE">
+            <en>Switch fence guide mode</en>
+            <de>Zaun-Hilfslinienmodus wechseln</de>
+            <fr>Changer le mode du guide de clôture</fr>
+            <nl>Hek-hulplijnmodus wisselen</nl>
+        </text>
+        <text name="input_FPH_TOGGLE_MASTER">
+            <en>Toggle Fence Placement Helper</en>
+            <de>Zaun-Platzierungshilfe ein/aus</de>
+            <fr>Activer/désactiver l'assistant de placement</fr>
+            <nl>Fence Placement Helper aan/uit</nl>
+        </text>
+    </l10n>
+</modDesc>

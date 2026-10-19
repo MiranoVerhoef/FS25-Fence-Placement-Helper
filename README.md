@@ -1,4 +1,5 @@
-# Fence Placement Helper
+# Farming Simulator 2025
+# FS25 Fence Placement Helper
 Fence Placement Helper improves long fence placement without replacing any vanilla construction controls.
 
 ## Features:
